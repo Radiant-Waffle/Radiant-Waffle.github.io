@@ -24,6 +24,7 @@ li {
 /* Base Styles */
 body {
   background: var(--secondary);
+  max-width: 100%;
   overflow-x: hidden;
   font-family: "Morris Roman";
 }
@@ -80,7 +81,7 @@ h4 {
   border-bottom: 3px solid var(--primary);
 }
 #welcome {
-  padding: 0 20px 0px 20px;
+  padding: 0 0 0px 20px;
   background-color: var(--primary);
 }
 .welcome-text {
@@ -89,6 +90,7 @@ h4 {
 }
 .welcome-img {
   grid-column: 6/9;
+  overflow-x: hidden;
 }
 .welcome-img img {
   max-height: 350px;
