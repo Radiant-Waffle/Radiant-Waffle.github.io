@@ -53,7 +53,7 @@ textarea {
 /* Fonts */
 @font-face {
   font-family: "Morris Roman";
-  src: url("Assets/Fonts/morris-roman.black.ttf");
+  src: url("assets/fonts/morris-roman.black.ttf");
 }
 h1,
 h3,
